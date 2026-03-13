@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.younes.financetracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="36" />
+10
+11    <permission
+11-->[androidx.core:core:1.13.1] /Users/younesbarka/.gradle/caches/8.13/transforms/6dbe03e05bd1ba620f5e42f2123bf7dd/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+12        android:name="com.younes.financetracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.1] /Users/younesbarka/.gradle/caches/8.13/transforms/6dbe03e05bd1ba620f5e42f2123bf7dd/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.1] /Users/younesbarka/.gradle/caches/8.13/transforms/6dbe03e05bd1ba620f5e42f2123bf7dd/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.younes.financetracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.13.1] /Users/younesbarka/.gradle/caches/8.13/transforms/6dbe03e05bd1ba620f5e42f2123bf7dd/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.1] /Users/younesbarka/.gradle/caches/8.13/transforms/6dbe03e05bd1ba620f5e42f2123bf7dd/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:5:5-29:19
+18        android:name="com.younes.financetracker.FinanceTrackerApp"
+18-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:6:9-42
+19        android:allowBackup="true"
+19-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:7:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.13.1] /Users/younesbarka/.gradle/caches/8.13/transforms/6dbe03e05bd1ba620f5e42f2123bf7dd/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+21        android:dataExtractionRules="@xml/data_extraction_rules"
+21-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:8:9-65
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:fullBackupContent="@xml/backup_rules"
+24-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:9:9-54
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:10:9-43
+26        android:label="@string/app_name"
+26-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:11:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:12:9-54
+28        android:supportsRtl="true"
+28-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:13:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.FinanceTracker" >
+30-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:14:9-52
+31        <activity
+31-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:16:9-27:20
+32            android:name="com.younes.financetracker.MainActivity"
+32-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:17:13-41
+33            android:exported="true"
+33-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:18:13-36
+34            android:label="@string/app_name"
+34-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:19:13-45
+35            android:theme="@style/Theme.FinanceTracker" >
+35-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:20:13-56
+36            <intent-filter>
+36-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:22:13-25:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:23:17-68
+37-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:23:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:24:17-76
+39-->/Users/younesbarka/Desktop/FinanceTracker/app/src/main/AndroidManifest.xml:24:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->[androidx.compose.ui:ui-tooling-android:1.6.8] /Users/younesbarka/.gradle/caches/8.13/transforms/049baa792122e820abcf759e0898e984/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+43            android:name="androidx.compose.ui.tooling.PreviewActivity"
+43-->[androidx.compose.ui:ui-tooling-android:1.6.8] /Users/younesbarka/.gradle/caches/8.13/transforms/049baa792122e820abcf759e0898e984/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+44            android:exported="true" />
+44-->[androidx.compose.ui:ui-tooling-android:1.6.8] /Users/younesbarka/.gradle/caches/8.13/transforms/049baa792122e820abcf759e0898e984/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+45        <activity
+45-->[androidx.compose.ui:ui-test-manifest:1.6.8] /Users/younesbarka/.gradle/caches/8.13/transforms/64e93ae276993979125cefdbcd1ff6e8/transformed/ui-test-manifest-1.6.8/AndroidManifest.xml:23:9-25:39
+46            android:name="androidx.activity.ComponentActivity"
+46-->[androidx.compose.ui:ui-test-manifest:1.6.8] /Users/younesbarka/.gradle/caches/8.13/transforms/64e93ae276993979125cefdbcd1ff6e8/transformed/ui-test-manifest-1.6.8/AndroidManifest.xml:24:13-63
+47            android:exported="true" />
+47-->[androidx.compose.ui:ui-test-manifest:1.6.8] /Users/younesbarka/.gradle/caches/8.13/transforms/64e93ae276993979125cefdbcd1ff6e8/transformed/ui-test-manifest-1.6.8/AndroidManifest.xml:25:13-36
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.3.0] /Users/younesbarka/.gradle/caches/8.13/transforms/274b8d8ec0d95d9d45a97d712c187468/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.3.0] /Users/younesbarka/.gradle/caches/8.13/transforms/274b8d8ec0d95d9d45a97d712c187468/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+51            android:authorities="com.younes.financetracker.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.3.0] /Users/younesbarka/.gradle/caches/8.13/transforms/274b8d8ec0d95d9d45a97d712c187468/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.3.0] /Users/younesbarka/.gradle/caches/8.13/transforms/274b8d8ec0d95d9d45a97d712c187468/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.3.0] /Users/younesbarka/.gradle/caches/8.13/transforms/274b8d8ec0d95d9d45a97d712c187468/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.3.0] /Users/younesbarka/.gradle/caches/8.13/transforms/274b8d8ec0d95d9d45a97d712c187468/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.3.0] /Users/younesbarka/.gradle/caches/8.13/transforms/274b8d8ec0d95d9d45a97d712c187468/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/younesbarka/.gradle/caches/8.13/transforms/073906b2ed50a1dfd8f30e74d3d840e4/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/younesbarka/.gradle/caches/8.13/transforms/073906b2ed50a1dfd8f30e74d3d840e4/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:30:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/younesbarka/.gradle/caches/8.13/transforms/073906b2ed50a1dfd8f30e74d3d840e4/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+60-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+61                android:value="androidx.startup" />
+61-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+62        </provider>
+63
+64        <service
+64-->[androidx.room:room-runtime:2.6.1] /Users/younesbarka/.gradle/caches/8.13/transforms/926d8a58fa9fc5d067e64565659d9ad5/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+65            android:name="androidx.room.MultiInstanceInvalidationService"
+65-->[androidx.room:room-runtime:2.6.1] /Users/younesbarka/.gradle/caches/8.13/transforms/926d8a58fa9fc5d067e64565659d9ad5/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+66            android:directBootAware="true"
+66-->[androidx.room:room-runtime:2.6.1] /Users/younesbarka/.gradle/caches/8.13/transforms/926d8a58fa9fc5d067e64565659d9ad5/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+67            android:exported="false" />
+67-->[androidx.room:room-runtime:2.6.1] /Users/younesbarka/.gradle/caches/8.13/transforms/926d8a58fa9fc5d067e64565659d9ad5/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+68
+69        <receiver
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+70            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+71            android:directBootAware="false"
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+72            android:enabled="true"
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+73            android:exported="true"
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+74            android:permission="android.permission.DUMP" >
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+75            <intent-filter>
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+76                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+77            </intent-filter>
+78            <intent-filter>
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+79                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+80            </intent-filter>
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+82                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+85                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/younesbarka/.gradle/caches/8.13/transforms/e5a81f75b50e55d9bd32fedf0b007322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+86            </intent-filter>
+87        </receiver>
+88    </application>
+89
+90</manifest>
