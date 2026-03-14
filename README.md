@@ -1,16 +1,24 @@
 # FinanceTracker
 
-FinanceTracker is a modern Android application for managing personal finances.  
-The app allows users to track income, record expenses, analyze spending patterns, and manage category based budgets.
+## Project Overview
+
+FinanceTracker is an Android application for managing personal finances.
+
+The application allows users to track income and expenses, manage budgets, and analyze spending patterns. The project demonstrates modern Android development practices including **Clean Architecture**, **MVVM architecture**, **dependency injection**, and reactive data handling using **Kotlin Coroutines and Flow**.
+
+---
 
 ## Features
 
-- Add and manage income and expense transactions
-- Category-based budget management
-- Expense analytics with visual charts
+- Track income and expenses
+- Create and manage category-based budgets
+- Analyze spending patterns with charts
 - Currency switching (USD / EUR)
-- Transaction search
-- Modern dark UI built with Jetpack Compose
+- Search transactions
+- Modern UI built with Jetpack Compose
+- Local data persistence using Room Database
+
+---
 
 ## Tech Stack
 
@@ -19,46 +27,55 @@ The app allows users to track income, record expenses, analyze spending patterns
 - Room Database
 - Hilt (Dependency Injection)
 - MVVM Architecture
-- Coroutines / Flow
+- Kotlin Coroutines & Flow
+- Android Studio
+
+---
 
 ## Architecture
 
-The project follows Clean Architecture principles.
+The project follows **Clean Architecture** combined with the **MVVM (Model–View–ViewModel)** pattern.
 
-data
-- datastore
-- local
-    - dao
-    - database
-    - entity
-- repository
+- com.younes.financetracker
+  - data
+    - datastore
+    - local
+      - dao
+      - database
+      - entity
+    - repository
+  - di
+  - domain
+    - repository
+  - presentation
+    - components
+    - navigation
+    - screens
+    - utils
+    - viewmodel
+  - theme
+  - FinanceTrackerApp
+  - MainActivity
 
-di
-- DatabaseModule
-- RepositoryModule
-
-domain
-- repository
-
-presentation
-- components
-- navigation
-- screens
-- utils
-- viewmodel
-- theme
+---
 
 ## Architecture Overview
 
-The application follows the MVVM pattern.
+The application follows the **MVVM pattern**:
 
-1. UI (Compose Screens)  
+1. **UI Layer (Jetpack Compose Screens)**  
+   Handles user interaction and displays data.
 
-2. ViewModel  
+2. **ViewModel Layer**  
+   Manages UI state and business logic.
 
-3. Repository  
+3. **Repository Layer**  
+   Acts as an abstraction between ViewModel and the data layer.
 
-4. Room Database (DAO)
+4. **Data Layer (Room Database / DAO)**  
+   Handles local data persistence.
+
+---
 
 ## Screenshots
 
@@ -79,7 +96,6 @@ The application follows the MVVM pattern.
 
 ### Recent Transactions
 ![Recent Transactions](screenshots/6.Recent_Transactions.png)
-
 
 
 
