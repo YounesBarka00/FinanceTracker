@@ -68,6 +68,9 @@ The application follows the MVVM pattern.
 ### Currency Switch
 ![Currency Switch](screenshots/2.Home.Currency_Switch.E_U_R.png)
 
+### Recent Transactions
+![Recent Transactions](screenshots/6.Recent_Transactions.png)
+
 ### Analytics
 ![Analytics](screenshots/5.Analytics.png)
 
