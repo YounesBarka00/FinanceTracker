@@ -110,10 +110,12 @@ Download the project and open it in Android Studio.
 
 ## Developer
 
-Younes Barka
+Younes Barka & Abdirahman Mahamood
 
-GitHub  
-https://github.com/YounesBarka00
+GitHub https://github.com/YounesBarka00
 
-LinkedIn  
-https://www.linkedin.com/in/younes-barka-b5b45136a/
+LinkedIn
+
+Younes: https://www.linkedin.com/in/younes-barka-b5b45136a/
+
+Abdirahman: https://www.linkedin.com/in/abdirahman-mahamod-589a15297/
