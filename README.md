@@ -2,7 +2,7 @@
 
 Younes Barka & Abdirahman Mahamood
 
-LinkedIn
+LinkedIn:
 
 Younes: https://www.linkedin.com/in/younes-barka-b5b45136a/
 
