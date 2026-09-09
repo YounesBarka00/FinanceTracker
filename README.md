@@ -1,3 +1,13 @@
+## Developer
+
+Younes Barka & Abdirahman Mahamood
+
+LinkedIn
+
+Younes: https://www.linkedin.com/in/younes-barka-b5b45136a/
+
+Abdirahman: https://www.linkedin.com/in/abdirahman-mahamod-589a15297/
+
 # FinanceTracker
 
 ## Project Overview
